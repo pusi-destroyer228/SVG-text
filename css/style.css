@@ -1,0 +1,44 @@
+body {
+    background: url(../img/breakingbadformon_wide-22d0f0aa716956d518b391936d3bc323dd7a3848.jpg) no-repeat;
+}
+
+.shadow{
+    opacity: 0.3;
+}
+
+#pattern{
+    clip-path: url(#svgTextPath);
+}
+
+#gradient {
+    display: none;
+}
+
+svg{
+    position: absolute;
+    left: -35px;
+}
+
+.text {
+    margin-left: 900px;
+}
+
+.border{
+    border: 0px dashed ;
+    width: 250px;
+    min-height: 200px;
+    padding: 5px;
+}
+
+.rect{
+    transform: translate(0);
+}
+
+.bad{
+    animation: bad 3s infinite;
+}
+
+.shadow{
+    margin-left: 900px;
+    animation: shadow 3s infinite;
+}
