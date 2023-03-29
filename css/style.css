@@ -1,5 +1,6 @@
 body {
-    background: url(../img/breakingbadformon_wide-22d0f0aa716956d518b391936d3bc323dd7a3848.jpg);
+    overflow-x: hidden;
+    background: url(../img/breakingbadformon_wide-22d0f0aa716956d518b391936d3bc323dd7a3848.jpg) no-repeat;
 }
 
 .shadow{
@@ -35,10 +36,34 @@ svg{
 }
 
 .bad{
-    animation: bad 3s infinite;
+    animation: bad 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes bad{
+
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: ;
+    }
+
 }
 
 .shadow{
     margin-left: 900px;
-    animation: shadow 3s infinite;
+    animation: shadow 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes shadow {
+    50% {
+        transform: rotate(360deg);
+    }
 }
